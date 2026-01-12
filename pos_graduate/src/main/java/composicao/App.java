@@ -1,0 +1,17 @@
+package main.java.composicao;
+
+public class App {
+
+	public static void main(String[] args) {
+		
+		
+		Pedido pedido = new Pedido();
+		
+		
+		System.out.println(pedido);
+		
+		
+
+	}
+
+}

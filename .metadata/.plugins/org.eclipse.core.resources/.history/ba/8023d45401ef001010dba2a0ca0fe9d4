@@ -1,0 +1,26 @@
+package main.java.composicao;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Pedido {
+	
+	private Itens i;
+	
+	
+	public  Pedido() {
+	List<String> mockedItens = new ArrayList<>();
+	mockedItens.add("Pera");
+	mockedItens.add("Maça");
+	mockedItens.add("Limão");
+	
+	i = new Itens(mockedItens);
+	
+	
+		
+	}
+	
+	
+	
+	
+}

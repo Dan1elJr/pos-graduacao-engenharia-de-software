@@ -1,0 +1,9 @@
+package main.java.abstracao;
+
+public abstract class Conta {
+	
+	private double saldo;
+	
+	
+	public void setSaldo(double saldo) {}
+}

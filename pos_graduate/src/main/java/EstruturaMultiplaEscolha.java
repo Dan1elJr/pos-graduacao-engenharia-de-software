@@ -1,0 +1,39 @@
+package main.java;
+
+import java.util.Scanner;
+
+public class EstruturaMultiplaEscolha {
+	
+	public static void main(String [] args) {
+		
+		Scanner scanner = new Scanner(System.in);
+		
+		System.out.println("Selecione um menu");
+		System.out.println("1 - Cadastrar aluno");
+		System.out.println("2 - Cadastrar notas");
+		System.out.println("3 - Listar alunos e notas");
+		
+		
+		int valorMenu = scanner.nextInt();
+		
+		switch(valorMenu) {
+			
+			case 1:
+				System.out.println("Vamos cadastrar aluno");
+				break;
+			case 2:
+				System.out.println("Vamos cadastrar nota");
+				break;
+			case 3:
+				System.out.println("Lista alunos");
+				break;
+				
+			default:
+				System.out.println("Valor de menu inválido");
+			
+				
+		scanner.close();
+		}
+		
+	}
+}

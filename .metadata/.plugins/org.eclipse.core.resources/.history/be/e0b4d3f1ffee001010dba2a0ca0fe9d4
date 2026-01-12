@@ -1,0 +1,10 @@
+package main.java.composicao;
+
+public class Pedido {
+	
+	private Itens i;
+	
+	public class Pedido() {
+		
+	}
+}

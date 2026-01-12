@@ -1,0 +1,23 @@
+package main.java.heranca;
+
+public class App {
+	public static void main(String[] args) {
+		
+		Pessoa p = new Pessoa();
+		
+		p.nome = "Daniel";
+		
+		
+		Vendedor v = new Vendedor();
+		v.nome="Daniel"
+		v.comissao=20;
+		
+		
+	}
+	 
+}
+
+
+
+
+

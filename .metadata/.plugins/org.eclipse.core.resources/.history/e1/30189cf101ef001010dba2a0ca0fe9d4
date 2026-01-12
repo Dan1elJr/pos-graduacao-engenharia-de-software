@@ -1,0 +1,17 @@
+package main.java.composicao;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Itens {
+	
+	List<String> itens = new ArrayList<>();
+	
+	public Itens(List<String> theItens) {
+		itens.addAll(theItens);
+	}
+
+	
+	
+	
+}
