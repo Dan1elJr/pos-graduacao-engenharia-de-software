@@ -7,7 +7,6 @@ public class Poupanca implements Conta {
 	@Override
 	public void depositar(double valor) {
 		this.saldo+=valor;
-		
 	}
 
 	@Override
@@ -17,9 +16,7 @@ public class Poupanca implements Conta {
 		}
 		else {
 			saldo-=valor;
-		}
-		
-		
+		}	
 	}
 
 	@Override
