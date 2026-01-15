@@ -1,6 +1,5 @@
 package main.java.colecoes.hashset;
 import java.util.HashSet;
-import java.util.LinkedHashSet;
 
 public class App {
 	
